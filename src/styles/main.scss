@@ -1,4 +1,7 @@
 @use 'hero';
+@use 'componets/infos-bar.scss';
+@use 'componets/buttons.scss';
+
 
 body {
     margin: 0;
@@ -6,6 +9,7 @@ body {
     box-sizing: border-box;
     font-family: roboto, sana-serif;
     color: #fff;
+    
 }
 
 .container {
